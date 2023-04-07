@@ -9,6 +9,10 @@ import apache_beam as beam
 from apache_beam.options.pipeline_options import PipelineOptions
 import faiss
 
+print ('hey guys dont mind me just fulfilling my sschoolproject requirements by contributing something :)')
+def shape(config):
+  return config.shape
+
 
 def parse_d6w_config(argv=None):
   """Parse d6w config.

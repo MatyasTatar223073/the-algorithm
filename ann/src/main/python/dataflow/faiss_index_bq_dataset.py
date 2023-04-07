@@ -15,6 +15,7 @@ def shape(config):
 
 
 def parse_d6w_config(argv=None):
+  global d6w_config
   """Parse d6w config.
   :param argv: d6w config
   :return: dictionary containing d6w config
